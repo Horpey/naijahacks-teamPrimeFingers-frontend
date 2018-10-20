@@ -1323,6 +1323,7 @@ body.header-color-scheme-light .mobile-nav ul li a {
 
 .matx-logo img.logo-dark {
     opacity: 1;
+    width: 140px;
     filter: alpha(opacity=100)
 }
 
@@ -2169,6 +2170,10 @@ a.footer-logo {
 
 a.footer-logo {
     display: inline-block
+}
+
+a.footer-logo img {
+    width: 140px;
 }
 
 .footer-social li a {
