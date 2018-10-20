@@ -13,3 +13,17 @@ nav.nav-typo ul li a {
 .btn-full {
     width: 100%;
 }
+
+.form-txt {
+    margin-top: 51px;
+    margin-bottom: 0px;
+}
+
+.success-img {
+    width: 106px;
+    padding: 19px 0px;
+}
+
+.mb-0 {
+    margin-bottom: 0px !important;
+}
