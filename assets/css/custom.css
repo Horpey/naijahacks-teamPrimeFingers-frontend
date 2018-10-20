@@ -1,0 +1,15 @@
+.text-black {
+    color: #333 !important;
+}
+
+nav.nav-typo ul li a {
+    color: white !important;
+}
+
+.section-common-space-form {
+    padding-top: 60px;
+}
+
+.btn-full {
+    width: 100%;
+}
