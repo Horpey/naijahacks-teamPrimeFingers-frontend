@@ -11,6 +11,8 @@
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../rsc/plugins/images/favicon.png">
     <title>Prime Fingers</title>
+    <!-- Morris CSS -->
+    <link href="../rsc/plugins/bower_components/morrisjs/morris.css" rel="stylesheet">
     <!-- Bootstrap Core CSS -->
     <link href="../rsc/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- This is Sidebar menu CSS -->
@@ -180,27 +182,45 @@
                         </a>
                     </li>
                     <li>
-                        <a href="products.html" class="waves-effect">
+                        <a href="add-product.html" class="waves-effect">
                             <i data-icon="v" class="mdi mdi-cellphone-link fa-fw"></i>
-                            <span class="hide-menu">Products </span>
+                            <span class="hide-menu">New Product Test </span>
                         </a>
                     </li>
                     <li>
-                        <a href="archive.html" class="waves-effect">
+                        <a href="active.html" class="waves-effect">
                             <i data-icon="v" class="mdi mdi-folder fa-fw"></i>
-                            <span class="hide-menu">My Archive </span>
+                            <span class="hide-menu">Active Test </span>
                         </a>
                     </li>
                     <li>
-                        <a href="ranking.html" class="waves-effect">
+                        <a href="history.html" class="waves-effect">
                             <i data-icon="v" class="mdi mdi-format-list-numbers fa-fw"></i>
-                            <span class="hide-menu">Rankings </span>
+                            <span class="hide-menu">History </span>
                         </a>
                     </li>
                     <li>
-                        <a href="profile.html" class="waves-effect">
+                        <a href="billing.html" class="waves-effect">
                             <i data-icon="v" class="mdi mdi-account fa-fw"></i>
-                            <span class="hide-menu">Profile </span>
+                            <span class="hide-menu">Billing </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="admins.html" class="waves-effect">
+                            <i data-icon="v" class="mdi mdi-account-multiple fa-fw"></i>
+                            <span class="hide-menu">Manage Admins </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="settings.html" class="waves-effect">
+                            <i data-icon="v" class="mdi mdi-menu fa-fw"></i>
+                            <span class="hide-menu">Settings </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="logout.html" class="waves-effect">
+                            <i data-icon="v" class="mdi mdi-logout fa-fw"></i>
+                            <span class="hide-menu">Log out </span>
                         </a>
                     </li>
                 </ul>
@@ -249,8 +269,7 @@
                                             <h3 class="counter text-right m-t-15">23</h3>
                                         </li>
                                         <li class="col-middle">
-                                            <h4>Total Test</h4>v>
-                                            </div>
+                                            <h4>Total Tests</h4>
                                         </li>
                                     </ul>
                                 </div>
@@ -258,20 +277,14 @@
                                     <ul class="col-in">
                                         <li>
                                             <span class="circle circle-md bg-info">
-                                                <i class="ti-wallet"></i>
+                                                <i class="ti-clipboard"></i>
                                             </span>
                                         </li>
                                         <li class="col-last">
                                             <h3 class="counter text-right m-t-15">76</h3>
                                         </li>
                                         <li class="col-middle">
-                                            <h4>Total Earnings</h4>
-                                            <div class="progress">
-                                                <div class="progress-bar progress-bar-info" role="progressbar"
-                                                    aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                                                    <span class="sr-only">40% Complete (success)</span>
-                                                </div>
-                                            </div>
+                                            <h4>Active Tests</h4>
                                         </li>
                                     </ul>
                                 </div>
@@ -279,44 +292,81 @@
                                     <ul class="col-in">
                                         <li>
                                             <span class="circle circle-md bg-success">
-                                                <i class=" ti-shopping-cart"></i>
+                                                <i class="ti-clipboard"></i>
                                             </span>
                                         </li>
                                         <li class="col-last">
                                             <h3 class="counter text-right m-t-15">93</h3>
                                         </li>
                                         <li class="col-middle">
-                                            <h4>Total Projects</h4>
-                                            <div class="progress">
-                                                <div class="progress-bar progress-bar-success" role="progressbar"
-                                                    aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                                                    <span class="sr-only">40% Complete (success)</span>
-                                                </div>
-                                            </div>
-                                        </li>
+                                            <h4>Pending Tests</h4>
                                     </ul>
                                 </div>
                                 <div class="col-lg-3 col-sm-6  b-0">
                                     <ul class="col-in">
                                         <li>
                                             <span class="circle circle-md bg-warning">
-                                                <i class="fa fa-dollar"></i>
+                                                <i class="ti-clipboard"></i>
                                             </span>
                                         </li>
                                         <li class="col-last">
                                             <h3 class="counter text-right m-t-15">83</h3>
                                         </li>
                                         <li class="col-middle">
-                                            <h4>Net Earnings</h4>
-                                            <div class="progress">
-                                                <div class="progress-bar progress-bar-warning" role="progressbar"
-                                                    aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                                                    <span class="sr-only">40% Complete (success)</span>
-                                                </div>
-                                            </div>
+                                            <h4>Failed Tests</h4>
                                         </li>
                                     </ul>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h3 class="box-title m-b-20"><strong>Alpha Products</strong></h3>
+                        <div class="white-box">
+                            <div class="row row-in">
+                                <!-- Tabstyle start -->
+                                <section>
+                                    <div class="sttabs tabs-style-line">
+                                        <nav>
+                                            <ul>
+                                                <li class="active"><a href="#section-line-1"><span>Statistics</span></a></li>
+                                                <li><a href="#section-line-2"><span>Questions/Task</span></a></li>
+                                                <li><a href="#section-line-3"><span>Answers</span></a></li>
+                                                <li><a href="#section-line-4"><span>Audio</span></a></li>
+                                            </ul>
+                                        </nav>
+                                        <div class="">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <section id="section-line-1">
+                                                        <h3 class="box-title">Product line Chart</h3>
+                                                        <ul class="list-inline text-right">
+                                                            <li>
+                                                                <h5><i class="fa fa-circle m-r-5" style="color: #00bfc7;"></i>iPhone</h5>
+                                                            </li>
+                                                            <li>
+                                                                <h5><i class="fa fa-circle m-r-5" style="color: #fdc006;"></i>iPad</h5>
+                                                            </li>
+                                                            <li>
+                                                                <h5><i class="fa fa-circle m-r-5" style="color: #9675ce;"></i>iPod</h5>
+                                                            </li>
+                                                        </ul>
+                                                        <div id="morris-area-chart"></div>
+                                                    </section>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <!-- /content -->
+                                    </div>
+                                    <!-- /tabs -->
+                                </section>
+                                <!-- Tabstyle start -->
                             </div>
                         </div>
                     </div>
@@ -341,6 +391,11 @@
     <script src="../rsc/js/jquery.slimscroll.js"></script>
     <!--Wave Effects -->
     <script src="../rsc/js/waves.js"></script>
+
+    <!--Morris JavaScript -->
+    <script src="../rsc/plugins/bower_components/raphael/raphael-min.js"></script>
+    <script src="../rsc/plugins/bower_components/morrisjs/morris.js"></script>
+    <script src="../rsc/js/morris-data.js"></script>
 
 
     <script src="../rsc/plugins/bower_components/waypoints/lib/jquery.waypoints.js"></script>

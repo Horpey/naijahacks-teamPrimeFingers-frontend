@@ -12,3 +12,18 @@
 .dash-logo {
     width: 100px;
 }
+
+.btn-prime {
+    background: #5CE52C;
+    border: 1px solid #5CE52C;
+    color: white;
+}
+
+.btn-prime:hover {
+    color: white;
+}
+
+.test-img {
+    height: 90px;
+    margin: 15px 0px;
+}
